@@ -13,14 +13,13 @@ header {
 }
 .logo {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .logo img {
     width: 50px;
     height: auto;
     margin-right: 15px;
-    justify-content: center;
 }
 
 header h1 {
@@ -58,17 +57,28 @@ main {
     width: 900px;
     height: 600px;
     margin-bottom: 20px;
-    
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .intro p {
     font-size: 30px;
-    color: #333;
+    color: black;
     font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 logo{
     width: 300px;
     height: 200px;
 }
+.info p{
+    text-align: right;
+    margin-top: -640px;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:medium;
+}
+
 
