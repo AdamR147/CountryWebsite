@@ -96,6 +96,40 @@ logo{
     width: 100%;
     height: auto;
 }
-#historical{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#logo{
+    display:flex;
+    align-items: left;
+}
+#logo img{
+    width: 70px;
+    height: auto;
+    margin-right: 15px;
+}
+#main{
+    padding: 20px;
+    text-align: center;
+}
+#intro p{
+    font-size: 55px;
+    color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#intro img{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1;
+    max-width: 50%;
+    margin-right: 20px;
+}
+#info{
+    flex: 1;
+    text-align: center;
+    max-width: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-top: -760px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
